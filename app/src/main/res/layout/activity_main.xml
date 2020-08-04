@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="top"
+    android:padding="15dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -15,23 +17,25 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="이메일 쓰시죠."
+        android:hint="이메일 쓰시죠"
         android:inputType="textEmailAddress" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:text="패스워드"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="패스워드 입력하시죠."
+        android:hint="패스워드 입력하시죠"
         android:inputType="textPassword" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:text="닉네임" />
 
     <EditText
@@ -43,6 +47,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:text="추천인" />
 
     <EditText
@@ -58,9 +63,9 @@
         android:orientation="horizontal">
 
         <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="만 14세 미만" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="만 14세 미만" />
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -93,7 +98,6 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:src="@drawable/cat_0804"
-        android:layout_gravity="center"
         android:scaleType="centerCrop" />
 
     <Button
