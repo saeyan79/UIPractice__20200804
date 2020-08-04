@@ -57,18 +57,20 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-            <RadioButton
+        <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="만 14세 미만" />
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="만 14세 이상" />
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="외국인" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="만 14세 이상" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="외국인" />
 
     </RadioGroup>
 
@@ -86,6 +88,12 @@
         android:text="마케팅 활용 동의합니다"
         android:textStyle="bold"
         android:checked="true"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/cat_0804"
+        android:scaleType="centerCrop" />
 
     <Button
         android:layout_width="match_parent"
