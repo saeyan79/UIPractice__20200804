@@ -98,13 +98,22 @@
         android:textStyle="bold"
         android:checked="true"/>
 
-    <ImageView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:src="@drawable/cat_0804"
-        android:layout_marginTop="5dp"
-        android:layout_gravity="center"
-        android:scaleType="centerCrop" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/cat_0804"
+            android:layout_marginTop="5dp"
+            android:scaleType="centerCrop" />
+
+    </LinearLayout>
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -116,14 +125,18 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="취소"
-            android:textColor="#4B89DC"/>
+            android:textColor="#4B89DC"
+            android:textStyle="bold"
+            android:textSize="7pt"/>
 
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="회원가입"
-            android:textColor="#4B89DC" />
+            android:textColor="#4B89DC"
+            android:textStyle="bold"
+            android:textSize="7pt"/>
 
     </LinearLayout>
 
